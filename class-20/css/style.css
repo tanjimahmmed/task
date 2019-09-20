@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.project_bg_1{
+    background-image: url(../img/pic1.jpg);
+}
+.project_bg_2{
+    background-image: url(../img/pic2.jpg);
+}
+.project_bg_3{
+    background-image: url(../img/pic3.jpg);
+}
+.project_bg_4{
+    background-image: url(../img/pic4.jpg);
+}
+.project_bg_5{
+    background-image: url(../img/pic5.jpg);
+}
+.project_bg_6{
+    background-image: url(../img/pic6.jpg);
+}
+.project_bg_7{
+    background-image: url(../img/pic7.jpg);
+}
+.project_bg_8{
+    background-image: url(../img/pic8.jpg);
+}
+.project_bg_9{
+    background-image: url(../img/pic9.jpg);
+}
+
+/*---  start ----*/
+.row.projects_lists .col-md-4:nth-child(2) .single_project_item,
+.row.projects_lists .col-md-4:nth-child(4) .single_project_item,
+.row.projects_lists .col-md-4:nth-child(5) .single_project_item{
+    height: 615px;
+}
+
+.section_padding {
+    padding: 80px 0;
+}
+
+.projects_title ul {
+    margin: 0 0 50px;
+    padding: 0;
+    list-style: none;
+}
+
+.projects_title li {
+    display: inline-block;
+    padding-right: 12px;
+    cursor: pointer;
+}
+
+.single_project_item a, .single_project_item span, .projects_title ul li.active{
+    color: #7ed6df;
+}
+
+.single_project_item {
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 2;
+}
+
+.row.projects_lists .col-md-4 {
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+}
+
+.row.projects_lists {
+    margin-left: -7.5px;
+    margin-right: -7.5px;
+}
+.project_hover{
+    position:relative;
+    height:100%;
+    width: 100%;
+    z-index: 2;
+    opacity: 0;
+}
+.project_hover::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: #000;
+    z-index: -1;
+    opacity: .5;
+}
+
+.project_hover h4 span {
+    display: block;
+    margin-top: 10px;
+    font-size: 80%;
+}
+
+.project_hover a {
+    position: absolute;
+    right: 6%;
+    top: 5%;
+}
+
+.project_hover h4 {
+    color: #fff;
+    font-weight: 700;
+    margin: 0;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+.single_project_item:hover .project_hover {
+    opacity: 1;
+    transition:.3s;
+}
