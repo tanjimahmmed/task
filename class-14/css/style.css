@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+/*-- work --*/
+.section_heading {
+    margin: 70px 0;
+}
+.section_heading h2 {
+    text-transform: uppercase;
+}
+.singel_service_box {
+    border: 1px solid #efefef;
+    text-align: center;
+}
+.service_box_bg {
+    background: #ddd;
+    height: 180px;
+    position: relative;
+}
+.service_box_bg h2 {
+    background: #ff5e00;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+    padding: 15px;
+    position: absolute;
+    left: 10%;
+    width: 80%;
+    margin: 0;
+    bottom: -25px;
+}
+.service_box_content {
+    padding: 30px;
+    padding-top: 60px;
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.service_box_content p:last-child {
+    margin: 0;
+}
+.service_redmore {
+    display: inline-block;
+    color: #333;
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
