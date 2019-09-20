@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.section_padding {
+    .gray_bg{
+        background-color: #fafafa;
+    }
+}
+.single_service_item{
+    .service_bg{
+        .service_bg_1{
+            background-image: url(../img/service-bg-1.jpg);
+        }
+        .service_bg_2{
+            background-image: url(../img/service-bg-2.jpg);
+        }
+        .service_bg_3{
+            background-image: url(../img/service-bg-3.jpg);
+        }
+        .service_bg_4{
+            background-image: url(../img/service-bg-4.jpg);
+        }
+    }
+}
