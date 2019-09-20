@@ -1,0 +1,64 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    .main_menu li {
+        padding-left: 50px;
+    }
+}
+/* Tablet & mobile Layout: 768px. */
+@media only screen and (max-width: 991px) { 
+    .main_menu li {
+        padding-left: 22px;
+    }
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    .logo {
+        padding: 30px 0;
+        text-align: center;
+    }
+    .main_menu li {
+        padding: 10px;
+    }
+    .main_menu ul {
+        text-align: center;
+    }
+    .main_menu li a {
+        padding: 20px 0;
+        font-size: 11px;
+    }
+    .singel_blog_item {
+        margin-bottom: 50px;
+    }
+    .leave_content {
+        margin-bottom: 50px;
+    }
+    section.fashion {
+        padding-bottom: 55px;
+    }
+    .footer_area {
+        text-align: center;
+    }
+    .footer_area .text-right {
+        text-align: center !important;
+        padding-top: 10px;
+    }
+    .load_more_btn {
+        font-size: 12px;
+        padding: 9px 15px;
+    }
+    .load_more_btn_warper {
+        margin-top: 0;
+    }
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+    .main_menu li {
+        padding: 15px;
+    }
+}
