@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.single_slide_item{
+    background-image: url(../img/cover.jpg);
+}
+.single_slide_item.slide_2{
+    background-image: url(../img/cover4.jpg);
+}
+.single_slide_item{
+    padding-top: 200px;
+    padding-bottom: 100px;
+    background-size: cover;
+    background-position: center top;
+    background-color: #333;
+}
+.logo img {
+    max-width: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.logo {
+    font-size: 19px;
+    font-weight: 700;
+    position: relative;
+    padding-left: 115px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.logo span {
+    font-weight: 500;
+    font-size: 80%;
+    font-style: italic;
+    display: block;
+}
+
+.right_contact_box {
+    font-size: 16px;
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    padding-left: 30px;
+    margin-left: 40px;
+    margin-top: 14px;
+}
+
+.right_contact_box i.fa {
+    position: absolute;
+    left: 0;
+    top: 2px;
+    font-size: 25px;
+}
+
+.right_contact_box a {
+    color: #333;
+}
+
+.header_area {
+    padding: 20px 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+}
+
+.slide_text {
+    position: relative;
+    z-index: 1;
+    font-size: 20px;
+    padding-left: 75px;
+    padding-right: 100px;
+    padding-top: 45px;
+    padding-bottom: 55px;
+}
+
+.slide_text::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    content: '';
+    z-index: -1;
+    opacity: .5;
+}
+
+.slide_text h2 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.boxed_btn {
+    background: orange;
+    color: #fff;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.boxed_btn:hover {
+    text-decoration: none;
+    color: #efefef;
+}
+.slide_text  .boxed_btn {
+    margin-top: 20px;
+}
+.homepage_slides .owl-nav div {
+    position: absolute;
+    left: 50px;
+    top: 50%;
+    font-size: 50px;
+    line-height: 60px;
+    margin-top: -30px;
+    opacity: 0;
+    transition: .3s;
+}
+
+.homepage_slides .owl-nav div.owl-next {
+    left: auto;
+    right: 50px;
+}
+
+.homepage_slides:hover .owl-nav div {
+    opacity: .5;
+}
+
+.homepage_slides .owl-dots div {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background: orange;
+    border-radius: 50px;
+    margin: 5px;
+}
+
+.homepage_slides .owl-dots {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.homepage_slides .owl-dots div.active {
+    background-color: #fff;
+}
