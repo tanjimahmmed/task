@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css?family=Mr+De+Haviland|Roboto:300,400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.welcome_hero_area{
+    background-image: url(../img/cover.jpg);
+}
+.hero_area_logo h3{
+    font-family: 'Mr De Haviland', cursive;
+}
+body,html {
+    height: 100%;
+}
+
+.welcome_hero_area {
+    height: 100%;
+    background-size: cover;
+    background-position: center top;
+    position: relative;
+    z-index: 1;
+}
+
+.header_area {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 15px 0;
+}
+
+.logo a {
+    text-transform: uppercase;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding-bottom: 1px;
+    text-decoration: none;
+}
+
+.logo h1 {
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+
+.logo a::after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background: #fff;
+}
+
+.main_menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main_menu ul li {
+    padding-left: 30px;
+    display: inline-block;
+}
+
+.main_menu ul li a {
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    z-index: 1;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.main_menu li a::after {
+    position: absolute;
+    content: '';
+    left: 50%;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background: #fff;
+    visibility: hidden;
+    transition: .3s;
+}
+.main_menu ul li a:hover::after {
+    visibility: visible;
+    width: 100%;
+    left: 0;
+    
+}
+.welcome_hero_area::after {
+    position: absolute;
+    content: '';
+    background: #333;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: .5;
+}
+
+.hero_area_table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.hero_area_tablecell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.scroll_to_about {
+    left: 50%;
+    position: absolute;
+    bottom: 30px;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    font-size: 40px;
+    margin-left: -20px;
+    opacity: .8;
+}
+
+.hero_area_logo h3 {
+    font-size: 100px;
+    color: #e49a5f;
+    margin: 0;
+    line-height: 36px;
+}
+
+.hero_area_logo h2 {
+    color: #fff;
+    font-size: 38px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.welcome_hero_area::after {
+    position: absolute;
+    content: '';
+    background: #333;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: .5;
+}
+
+.hero_area_table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.hero_area_tablecell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.scroll_to_about {
+    left: 50%;
+    position: absolute;
+    bottom: 30px;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    font-size: 40px;
+    margin-left: -20px;
+    opacity: .8;
+}
+
+.hero_area_logo h3 {
+    font-size: 100px;
+    color: #e49a5f;
+    margin: 0;
+    line-height: 36px;
+    text-transform: none;
+}
+
+.hero_area_logo h2 {
+    color: #fff;
+    font-size: 60px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.bordered_area {
+    overflow: hidden;
+    max-width: 275px;
+    margin: 0 auto;
+}
+
+.bordered_area_left_border, .bordered_area_right_border {
+    float: left;
+    height: 2px;
+    background: #fff;
+    width: 40%;
+    margin-top: 6px;
+}
+
+.bordered_area i.fa {
+    float: left;
+    margin: 0 20px;
+    font-size: 15px;
+    color: #C9977E;
+}
+.hero_area_logo {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.hero_area_logo p {
+    margin-top: 8px;
+}
+
+.bordered_area_right_border, .bordered_area_left_border{
+    position: relative;
+}
+
+.bordered_area_right_border::before {
+    position: absolute;
+    content: '';
+    right: -2px;
+    top: -4px;
+    height: 0;
+    width: 0;
+    border-top: 5px solid transparent;
+    border-right: 8px solid #fff;
+    border-bottom: 5px solid transparent;
+}
+.bordered_area_left_border::after {
+    position: absolute;
+    content: '';
+    left: 0px;
+    top: -4px;
+    height: 0;
+    width: 0;
+    border-top: 5px solid transparent;
+    border-left: 8px solid #fff;
+    border-bottom: 5px solid transparent;
+}
