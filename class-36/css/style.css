@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.section_padding {
+    padding: 80px 0;
+}
+
+.single_pricing_box {
+    border: 1px solid #f4f7fa;
+    border-radius: 4px;
+    margin-bottom: 50px;
+    padding: 50px;
+    text-align: center;
+    transition: .3s;
+}
+
+body {
+    font-size: 16px;
+    color: #6c7b8a;
+    line-height: 1.8;
+}
+
+a {
+    color: #14abf4;
+}
+
+.pricing_amount {
+    color: #14abf4;
+    font-size: 55px;
+    line-height: 70px;
+    margin-bottom: 0;
+    font-weight: 300;
+}
+
+.pricing_box_content {
+    margin-top: 30px;
+    border-top: 1px solid #f1f5fa;
+    padding-top: 30px;
+}
+
+.pricing_box_content ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.pricing_box_content li {
+    margin-bottom: 13px;
+    line-height: 1.4;
+}
+
+.boxed_btn {
+    background: #14abf4 none repeat scroll 0 0;
+    color: #fff;
+    padding: 10px 40px;
+    border-radius: 4px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.single_pricing_box h4 {
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.single_pricing_box h4 span {
+    display: block;
+    font-weight: 400;
+    font-size: 80%;
+    color: #93cb72;
+    margin-top: 10px;
+}
+
+.single_pricing_box.active h4 {
+    margin-top: -15px;
+    margin-bottom: 27px;
+}
+
+.single_pricing_box.active {
+    position: relative;
+    z-index: 1;
+    border-radius: 0 0 5px 5px;
+}
+
+.single_pricing_box.active::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background: #67b930 none repeat scroll 0 0;
+}
+
+.single_pricing_box:hover {
+    box-shadow: 0 0 40px #f2f5f6;
+}
+
+.boxed_btn:hover {
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+}
+
+a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
