@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    font-family: 'Droid Serif', serif;
+}
+.testimonial_bg{
+    background-image: url(../img/cover.jpg);
+}
+.section_padding {
+    padding: 100px 0;
+}
+
+.testimonial_bg {
+    background-size: cover;
+    background-position: center bottom;
+    background-color: #333;
+    color: #fff;
+}
+
+.user_avatar img {
+    max-width: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.user_avatar {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.testimonial_content {
+    line-height: 20px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.single_testimonial_item {
+    text-align: center;
+}
+
+.single_testimonial_item h4 {
+    opacity: 0.7;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.single_testimonial_item h4 span {
+    font-weight: 400;
+    display: block;
+    font-size: 80%;
+    margin-top: 10px;
+}
+
+.testimonial_carousel .owl-dots div {
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    background: #2e4450 none repeat scroll 0 0;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.testimonial_carousel .owl-dots div.active {
+    background: #fff;
+}
+
+.testimonial_carousel .owl-dots {
+    text-align: center;
+    margin-top: 40px;
+}
+.testimonial_carousel::after, .testimonial_carousel::before{
+    font-family: fontawesome;
+    font-size: 30px;
+    position: absolute;
+}
+.testimonial_carousel::after{
+    bottom: 127px;
+    content: "";
+    right: -50px;
+}
+.testimonial_carousel::before{
+    top: 100px;
+    content: "";
+    left: -50px;
+}
