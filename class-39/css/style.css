@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+body {
+    color: #737678;
+    font-size: 17px;
+    line-height: 1.7;
+}
+.pricing_tables {
+    overflow: hidden;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+
+.single_pricing_box {
+    width: 33.3333333%;
+    float: left;
+    box-shadow: 0 0 10px #f3f3f3;
+    position: relative;
+    z-index: 1;
+    background: #fff;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.pricing_heading {
+    background: #f9f9f9;
+    color: #898888;
+    font-size: 17px;
+    padding: 40px;
+}
+
+.pricing_heading h4 {
+    color: #888888;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.pricing_heading h2 {
+    font-weight: 400;
+    color: #333333;
+    font-size: 50px;
+}
+
+.pricing_content {
+    padding: 60px;
+}
+
+.pricing_content ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 35px;
+}
+
+.pricing_btn {
+    display: inline-block;
+    color: #f91942;
+    border: 1px solid #f91942;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.active .pricing_heading {
+    background: #f91942;
+    color: #fff;
+    margin-top: 0px;
+}
+
+.active .pricing_heading h4,.active .pricing_heading h2 {
+    color: #fff;
+}
+
+.section_padding {
+    padding: 80px 0;
+}
+
+.single_pricing_box .active {
+    position: relative;
+    z-index: 2;
+    margin-left: -.5%;
+    margin-right: -.5%;
+    width: 33.9999%;
+    overflow:hidden;
+    
+}
+.active .pricing_content {
+    padding: 70px 60px;
+}
+
+.active .pricing_btn {
+    background: #f91942;
+    color: #fff;
+}
+
+.pricing_btn:hover {
+    text-decoration: none;
+    color: #444444;
+}
+.single_pricing_box.active{
+    overflow:hidden;
+    margin-top: 0;
+}
+.active.single_pricing_box::after {
+    content: 'Featured';
+    position: absolute;
+    color: #f91942;
+    background: #fff;
+    top: 25px;
+    right: -36px;
+    font-size: 14px;
+    padding: 5px 55px;
+    transform: rotate(45deg);
+}
