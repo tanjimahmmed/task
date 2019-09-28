@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.section_padding {
+    padding: 100px 0;
+}
+
+body {
+    font-size: 18px;
+    line-height: 2;
+}
+
+.tab-list {
+    border-bottom: 2px solid #e0e0e0;
+    margin: 0 0 30px;
+    padding: 0;
+    list-style: none;
+}
+
+.tab-list li {
+    display: inline-block;
+}
+
+.tab-list li a {
+    display: block;
+    color: #666;
+    position: relative;
+    padding: 20px;
+    text-decoration: none;
+}
+.tab-list li.active a {color: #fc153c;}
+.tab-list li.active a::after {
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    background: red;
+    content: '';
+    width: 100%;
+    height: 2%;
+}
