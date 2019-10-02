@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.section_padding {
+    padding: 80px 0;
+}
+.single_staff_item{
+    display: table-cell;
+}
+.single_staff_item img{
+    height: 150px;
+    width: 150px;
+ }
+ .mainmenu_area ul {
+    background: #3498db;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.mainmenu_area li {
+    display: inline-block;
+}
+
+.mainmenu_area li a {
+    color: #fff;
+    padding: 15px;
+    display: block;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+}
+/* drop down menu */
+.mainmenu_area li {
+    position: relative;
+}
+
+.mainmenu_area li ul {
+    position: absolute;
+    /*left: 20px;*/
+    top: -100px;
+    width: 200px;
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+}
+
+.mainmenu_area li ul a {
+    text-transform: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.mainmenu_area li ul li {
+    display: block;
+}
+
+.mainmenu_area li:hover ul {
+    visibility: visible;
+    opacity: 1;
+/*     left:0; */
+    top:53.8px; 
+}
+.mainmenu_area ul li:hover> a {
+    background: #2c3e50;
+    color: #fff;
+}
+.mainmenu_area ul li a {
+    transition: .3s;
+}
+/* second level drop down menu */
+.mainmenu_area li:hover ul ul{
+    visibility: hidden;
+    opacity: 0;
+}
+.mainmenu_area ul ul li ul {
+    left: 200px;
+}
+.mainmenu_area ul ul li:hover> ul {
+    top: 0px;
+    visibility: visible;
+    opacity: 1;
+}
