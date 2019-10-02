@@ -1,0 +1,51 @@
+	/*
+  	medicine icon font: medicine
+  	Creation date: 08/08/2016 08:49
+  	*/
+
+@font-face {
+  font-family: "medicineIcon";
+  src: url("../fonts/medicine.eot");
+  src: url("../fonts/medicine.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/medicine.woff") format("woff"),
+       url("../fonts/medicine.ttf") format("truetype"),
+       url("../fonts/medicine.svg#medicineIcon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "medicineIcon";
+    src: url("./medicine.svg#medicineIcon") format("svg");
+  }
+}
+
+[class^="medicine-"]:before, [class*=" medicine-"]:before,
+[class^="medicine-"]:after, [class*=" medicine-"]:after {   
+  font-family: medicineIcon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.medicine-ambulance:before { content: "\f100"; }
+.medicine-band-aid:before { content: "\f101"; }
+.medicine-dna:before { content: "\f102"; }
+.medicine-first-aid-kit:before { content: "\f103"; }
+.medicine-heart:before { content: "\f104"; }
+.medicine-hospital:before { content: "\f105"; }
+.medicine-injury:before { content: "\f106"; }
+.medicine-lungs:before { content: "\f107"; }
+.medicine-medical-history:before { content: "\f108"; }
+.medicine-medicine:before { content: "\f109"; }
+.medicine-medicine-1:before { content: "\f10a"; }
+.medicine-medicine-2:before { content: "\f10b"; }
+.medicine-nurse:before { content: "\f10c"; }
+.medicine-pill:before { content: "\f10d"; }
+.medicine-surgeon:before { content: "\f10e"; }
+.medicine-syringe:before { content: "\f10f"; }
+.medicine-thermometer:before { content: "\f110"; }
+.medicine-tooth:before { content: "\f111"; }
+.medicine-transfusion:before { content: "\f112"; }
+.medicine-wheelchair:before { content: "\f113"; }
