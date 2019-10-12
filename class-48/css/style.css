@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.section_padding {
+    padding: 80px 0;
+}
+
+.section_title {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.section_title h2 {
+    text-transform: uppercase;
+}
+.testimonial_wrapper {
+    position: relative;
+}
+.testimonial_right_title{
+    position:absolute;
+    color: #ECEBEB;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 60px;
+    transform: rotate(-90deg);
+    left: -270px;
+    bottom: 105px;
+}
+.testimonial_right_title::after {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    height: 2px;
+    width: 50%;
+    background: #ECEBEB;
+    content: '';
+}
+
+.testimonial_top img {
+    max-width: 120px;
+    display: inline-block;
+    margin-top: -45px;
+}
+
+.testimonial_top h3 {
+    display: inline-block;
+    text-align: left;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #444544;
+    padding-left: 25px;
+}
+
+.testimonial_top {
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 50px;
+}
+
+.testimonial_top h3 span {
+    font-size: 70%;
+    font-weight: normal;
+    color: #BBBBBB;
+    padding-top: 12px;
+    display: inline-block;
+}
+
+.single_testimonial_item {
+    line-height: 1.8;
+    font-size: 15px;
+    color: #9B9B9B;
+    box-shadow: 0 0 10px #F7F7F7;
+    padding: 45px 80px;
+    text-align: center;
+}
+
+.testimonial_author_name img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-top: -10px;
+}
+
+.testimonial_author_name h3 {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 400;
+    color: #595959;
+    text-transform: uppercase;
+    padding-left: 10px;
+    max-width: 185px;
+}
+
+.testimonial_author_name {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 250px;
+    overflow-y: scroll;
+}
+
+.testimonial_author_name h3 span {
+    text-transform: none;
+    opacity: 0.7;
+    display: inline-block;
+    font-size: 95%;
+}
+
+.testimonial_author_name a {
+    text-decoration: none;
+}
+
+.testimonial_author_name li {
+    padding-top: 10px;
+    margin-bottom: 20px;
+    opacity: 0.5;
+}
+.testimonial_author_name li.active {
+    opacity: 1;
+}
+.ps>div.ps__scrollbar-y-rail{
+    opacity: 1;
+}
+
