@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.section_title {
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: #434184;
+    font-weight: 400;
+}
+
+body {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #B9B9B9;
+}
+
+.feature_wrap {
+    position: relative;
+    z-index: 1;
+    padding-bottom: 220px;
+}
+
+img.hand_absolute {
+    position: absolute;
+    bottom: 0;
+    right: -50px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.feature_area {
+    padding-top: 100px;
+}
+.mainmenu_area ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.mainmenu_area li {
+    display: inline-block;
+    position: relative;
+}
+
+.mainmenu_area li a {
+    padding: 20px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+.mainmenu_area {
+    background-color: #9b59b6;
+}
+.fixed-top{
+    background-color: #fff;
+}
+.stick_area{
+    z-index: 999;
+    width: 100%;
+}
+.sticky-wrapper {
+    z-index: 999;
+    position: relative;
+}
+
+.header_area {
+    background-color: #fff;
+}
+.mainmenu_area li ul {
+    position: absolute;
+    left: 0;
+    top: 86px;
+    width: 250px;
+    background-color: #9b59b6;
+    text-align: left;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+    padding: 10px;
+}
+
+.mainmenu_area li:hover ul {
+    opacity: 1;
+    visibility: visible;
+    top: 67px;
+}
+
+.mainmenu_area li ul li {
+    display: block;
+}
+
+.mainmenu_area li li a {
+    padding: 12px 15px;
+}
+
+.mainmenu_area li:hover > a {
+    color: yellow;
+}
+
+.mainmenu_area li:hover li:hover > a {
+    background-color: #34495e;
+    color: #fff;
+}
+.mainmenu_area li.mega_menu {
+    position: static;
+}
+
+.mega_menu_wrapper {
+    left: 0;
+    width: 100%;
+    background: #9b59b6;
+    position: absolute;
+    padding:20px;
+    z-index: -1;
+    box-shadow:0 0 5px #f5f5f5;
+    top: 86px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+}
+
+.mainmenu_area li.mega_menu ul {
+    position: relative;
+    left:auto;
+    top:auto;
+    padding:0;
+    visibility:visible;
+    opacity:1;
+    width:auto;
+}
+
+.mainmenu_area li.mega_menu:hover .mega_menu_wrapper {
+    opacity: 1;
+    visibility: visible;
+    top: 67px;
+    z-index: 99;
+}
