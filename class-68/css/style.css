@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Condiment|Roboto:300,400,700,900');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.section_padding{
+    padding: 80px 0;
+}
+.food_box_info h3{
+    font-family: 'Condiment', cursive;
+}
+.food_box_bg{
+    background-image: url(../img/dessert1.jpg);
+}
+.food_box_bg_2{
+    background-image: url(../img/dessert2.jpg);
+}
+.food_box_bg_3{
+    background-image: url(../img/dessert3.jpg);
+}
+.food_box_bg {
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.food_box_info {
+    background: #F3F4F4;
+    padding: 50px;
+    border-top: 4px solid #D19735;
+    margin-top: -150px;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    transition: 0.3s;
+}
+
+p.food_price span {
+    font-weight: 700;
+    font-size: 200%;
+}
+
+.single_food_box:hover .food_box_info {
+    background-color: #D19735;
+    color: #fff;
+}
+
+.food_box_info h2 {
+    color: #D19735;
+    text-transform: uppercase;
+    font-size: 22px;
+    letter-spacing: 3px;
+}
+
+p.food_price {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.single_food_box:hover .food_box_info h2 {
+    color: #fff;
+}
+
+.single_food_box:hover .food_box_info h3 {
+    color: #FFFE00;
+}
+
+.bordered_btn {
+    color: #DDB97B;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: 2px solid #DAB069;
+    padding: 8px 20px;
+    display: inline-block;
+}
+
+.single_food_box:hover .food_box_info .bordered_btn {
+    color: #fff;
+    text-decoration: none;
+    border-color: #fff;
+}
