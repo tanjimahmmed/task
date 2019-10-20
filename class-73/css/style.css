@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.section_title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.section_padding {
+    padding: 80px 0;
+}
+
+.section_title p {padding: 0 275px;}
+
+.single_circle_progressbar {
+    text-align: center;
+}
+
+.circle_progressbar_wrap {
+    position: relative;
+    margin-bottom: 20px;
+}
+span.progress_percentage {position: absolute;left: 0;top: 50%;width: 100%;line-height: 40px;font-size: 40px;font-weight: 700;margin-top: -25px;}
+
+#graphic_design_progressbar canvas {
+    transform: rotate(120deg);
+}
+
+#digital_marketing_design_progressbar canvas {
+    transform: rotate(105deg);
+}
+
+#web_design_progressbar >canvas {
+    transform: rotate(85deg);
+}
