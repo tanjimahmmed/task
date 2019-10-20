@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'Asiyah Script';
+    src: url('../fonts/AsiyahScript.eot');
+    src: url('../fonts/AsiyahScript.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AsiyahScript.woff2') format('woff2'),
+        url('../fonts/AsiyahScript.woff') format('woff'),
+        url('../fonts/AsiyahScript.ttf') format('truetype'),
+        url('../fonts/AsiyahScript.svg#AsiyahScript') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Asiyah Script';
+}
+.carousel_bg_1{
+    background-image: url(../img/traveling1.jpg);
+}
+ .carousel_bg_2{
+    background-image: url(../img/traveling2.jpg);
+}
+.carousel_bg_3{
+    background-image: url(../img/traveling3.jpg);
+}
+/* .carousel_bg_4{
+    background-image: url(../img/traveling4.jpg);
+}  */
+html,body {
+    height: 100%;
+}
+.single_carousel_item {
+    display: table;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+}
+
+.carousel_item_tablecell {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+.carousel_item_tablecell h1 {
+    font-size: 130px;
+    margin-bottom: 0;
+}
+
+a.boxed_btn {
+    color: #fff;
+    background-color: #D7095E;
+    display: inline-block;
+    padding: 8px 40px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 12px;
+}
+.homepage_slides,.homepage_slides div {
+    height: 100%;
+}
+
+.homepage_slides div.carousel_item_tablecell, .homepage_slides div.carousel_item_tablecell div, .homepage_slides div.owl-nav, .homepage_slides div.owl-nav div, .homepage_slides div.owl-dots, .homepage_slides div.owl-dots div {
+    height: auto;
+}
+
+.homepage_slides .owl-nav div {
+    position: absolute;
+    left: 50px;
+    top: 50%;
+    color: #fff;
+    font-size: 20px;
+    line-height: 60px;
+    margin-top: -30px;
+}
+
+.homepage_slides .owl-nav div.owl-next {left: auto;right: 50px;}
+
+
