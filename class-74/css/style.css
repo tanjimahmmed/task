@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.flip_area {
+    background-color: #EFEFEF;
+    padding: 100px 0;
+}
+
+.fliped_boxed_Service {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-bottom: 4px solid #333;
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+.back .fliped_boxed_Service{
+    background-color: #333;
+    color: #fff;
+}
+.fliped_boxed_service_tablecell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.fliped_boxed_Service h3 {
+    font-weight: 400;
+}
+
+.fliped_boxed_Service i.fa {
+    font-size: 100px;
+    margin-bottom: 25px;
+}
+.row.pad_flip {
+    margin-top: 50px;
+}
+
+
+
+/* transform area */
+.flipbox {
+	margin: 0 auto;
+	height: 300px;  
+	position: relative;
+	-webkit-perspective: 600px;
+	-moz-perspective: 600px;
+}
+
+	
+.flipbox .front {
+	height: inherit;
+	position: absolute;
+	top: 0;
+	z-index: 900;
+	text-align: center;
+	-webkit-transform: rotateX(0deg) rotateY(0deg);
+	   -moz-transform: rotateX(0deg) rotateY(0deg);
+	-webkit-transform-style: preserve-3d;
+	   -moz-transform-style: preserve-3d;
+	-webkit-backface-visibility: hidden;
+	   -moz-backface-visibility: hidden;
+	-webkit-transition: all .4s ease-in-out;
+	   -moz-transition: all .4s ease-in-out;
+		-ms-transition: all .4s ease-in-out;
+		 -o-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+            width: 100%;
+}
+
+.flipbox .back {
+	height: inherit;
+	position: absolute;
+	top: 0;
+	z-index: 1000;
+	-webkit-transform: rotateY(-180deg);
+	   -moz-transform: rotateY(-180deg);
+	-webkit-transform-style: preserve-3d;
+	   -moz-transform-style: preserve-3d;
+	-webkit-backface-visibility: hidden;
+	   -moz-backface-visibility: hidden;
+	-webkit-transition: all .4s ease-in-out;
+	   -moz-transition: all .4s ease-in-out;
+		-ms-transition: all .4s ease-in-out;
+		 -o-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+            width: 100%;
+}
+.flipbox.flip .front {
+	z-index: 900;
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+}
+.flipbox.flip .back {
+	z-index: 1000;
+	-webkit-transform: rotateX(0deg) rotateY(0deg);
+	-moz-transform: rotateX(0deg) rotateY(0deg);
+}
+/* transform area end */
