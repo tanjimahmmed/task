@@ -1,0 +1,108 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    
+}
+/* Tablet & mobile Layout: 768px. */
+@media only screen and (max-width: 991px) { 
+  
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    .header_top, header_top a {
+        display: none;
+    }
+    .single_slide_item h2 {
+        font-size: 25px;
+    }
+    .single_slide_item p {
+        font-size: 13px;
+        margin-bottom: 0;
+    }
+    .boxed_btn {
+        padding: 3px 15px;
+        font-size: 10px;
+    }
+    .single_slide_item {
+        height: 450px;
+    }
+    .homepage_area .owl-dots {
+        position: relative;
+        left: 0;
+        top: -48px;
+        width: 90%;
+    }
+    .section_padding h2 {
+        font-size: 16px;
+    }
+    .section_padding p {
+        font-size: 10px;
+    }
+    .space-90 {
+        height: 20px;
+    }
+    .service_box_bg {
+        height: 100px;
+    }
+    .service_box_title {
+        top: 80px;
+    }
+    .service_box_title h2 {
+        font-size: 8px;
+        width: 68%;
+        padding: 8px;
+    }
+    .service_box_content {
+        padding-top: 14px;
+    }
+    .cta_area {
+        padding: 18px 0;
+    }
+    .team_thumb {
+        height: 305px;
+        background-repeat: repeat;
+        width: 300px;
+    }
+    .team_info {
+        width: 300px;
+    }
+    .single_team_member {
+        margin-left: 18%;
+    }
+    /* .header_area {
+        padding-bottom: 12px;
+    }
+    .menu-toggle{
+      display: block;
+    }
+    .header_area .main_menu{
+        display: none;
+        position: absolute;
+        height: calc(100vh - 50px);
+        width: 100%;
+        background: #000;
+        top: 70px;
+        left: -100%;
+        transition: 0.5s;
+    }
+    .header_area .main_menu.active{
+     left: 0;
+    }
+    .header_area .main_menu ul li{
+        display: block;
+        text-align: center;
+    }
+    .header_area .main_menu ul li a{
+        border-bottom: 1px solid rgba(0, 0, 0, .2);
+        color: #fff;
+    } */
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+   
+}
