@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+a:focus, input:focus, textarea:focus, button:focus{
+    outline: 0 solid;
+}
+a:hover{
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin:0 0 15px;
+    font-weight:700;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.section_padding{
+    padding: 80px 0;
+}
+.service_box_bg_1{
+    background-image: url(../img/cover1.jpg);
+}
+.service_box_bg_2{
+    background-image: url(../img/cover2.jpg);
+}
+.service_box_bg_3{
+    background-image: url(../img/cover3.jpg);
+}
+.service_box_bg_4{
+    background-image: url(../img/cover4.jpg);
+}
+.service_box {
+    height: 160px;
+    border-radius: 3px;
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    z-index: 2;
+}
+
+.boxed_btn {
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: #FAB701;
+    padding: 8px 20px;
+    opacity: 0;
+    visibility: hidden;
+    transition:0.2s;
+    border-radius: 3px;
+}
+
+.service_box_hover h3 {
+    font-size: 18px;
+    margin-bottom: 17px;
+    font-weight: 400;
+}
+
+.service_box_hover {
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    width: 100%;
+    transition:0.2s;
+}
+
+.service_box:hover .service_box_hover {
+    bottom: 30px;
+}
+
+.service_box:hover .boxed_btn {
+    opacity: 1;
+    visibility: visible;
+    color:#fff;
+}
+
+.service_box::after {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    z-index: -1;
+    opacity: 0.5;
+}
