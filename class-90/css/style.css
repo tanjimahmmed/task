@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+a:focus, input:focus, textarea:focus, button:focus{
+    outline: 0 solid;
+}
+a:hover{
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin:0 0 15px;
+    font-weight:700;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.section_padding{
+    padding: 80px 0;
+}
+.section_title h2 {
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #0CC0FA;
+    font-weight: 400;
+}
+
+.section_title h2 strong {
+    font-weight: 700;
+}
+
+.section_title_separator {
+    position: relative;
+    height: 2px;
+    background-color: #0CC0FA;
+    width: 200px;
+    margin: 0 auto 25px;
+}
+
+.section_title_separator::after {
+    position: absolute;
+    left: 50%;
+    bottom: -1.5px;
+    width: 50px;
+    height: 5px;
+    content: '';
+    background-color: #14C0FE;
+    margin-left: -25px;
+    z-index: 1;
+}
+body {
+    background-color: #F5F5F5;
+}
+
+.section_title {
+    margin-bottom: 100px;
+}
+
+.single_team_box {
+    background: #fff;
+    padding: 45px;
+    text-align: center;
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+.single_team_box img {
+    max-width: 200px;
+    display: block;
+    margin: 0 auto 30px;
+    border-radius: 50%;
+}
+
+.team_description span {
+    color: #0ABEFE;
+    font-size: 110%;
+}
+
+.single_team_box h4 {
+    color: #01BAFA;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.single_team_box h4 span {
+    display: block;
+    color: #828282;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.team_carousel .owl-nav button.owl-next,.team_carousel .owl-nav button.owl-prev{
+    position: absolute;
+    background-color: #03BAFC;
+    height: 35px;
+    width: 35px;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    line-height: 35px;
+    border-radius: 50%;
+    top: 50%;
+    margin-top: -17.5px;
+    left: auto;
+    margin-left: -70px;
+}
+
+.team_carousel .owl-nav .owl-next {
+    left: auto;
+    right: -70px;
+}
