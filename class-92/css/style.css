@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+a:focus, input:focus, textarea:focus, button:focus{
+    outline: 0 solid;
+}
+a:hover{
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin:0 0 15px;
+    font-weight:700;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.section_padding{
+    padding: 80px 0;
+}
+body, h2 {
+    font-weight: 300;
+}
+
+.section_title {
+    font-size: 20px;
+    line-height: 1.8;
+    margin-bottom: 50px;
+}
+
+.contact_us_from {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+p.form_element {
+    position: relative;
+}
+
+p.form_element label {
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.contact_us_from input[type=text], .contact_us_from input[type=email], .contact_us_from textarea {
+    padding: 15px;
+    border: 1px solid #EDEDED;
+    width: 100%;
+    font-size: 14px;
+    font-size:14px;
+    padding-top:35px;
+    padding-bottom:10px;
+    transition:0.1s;
+}
+
+.contact_us_from textarea {
+    max-height: 150px;
+}
+
+.contact_us_from input[type=submit] {
+    float: right;
+    padding: 12px 25px;
+    border: none;
+    background-color: #6D59B0;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.small_text {
+    font-size: 14px;
+    color: #919191;
+    padding: 16px 0;
+}
+
+.contact_us_from input[type=email]:focus, .contact_us_from input[type=text]:focus, .contact_us_from textarea:focus {
+    background-color: #F0F0F0;
+}
