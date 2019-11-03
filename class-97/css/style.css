@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+a:focus, input:focus, textarea:focus, button:focus{
+    outline: 0 solid;
+}
+a:hover{
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin:0 0 15px;
+    font-weight:700;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.section_padding{
+    padding: 80px 0;
+}
+.pricing_title_wrap{
+    background-image: url(../img/cover1.jpg);
+}
+.pricing_title_wrap {
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    text-align: center;
+    color: #fff;
+}
+
+.pricing_title_wrap h2 {
+    font-weight: 100;
+    font-size: 50px;
+}
+
+.pricing_header {
+    text-align: center;
+    background-color: #2A2F3A;
+    color: #51545D;
+    position: relative;
+    display: table;
+    height: 250px;
+    width: 100%;
+}
+
+.pricing_header h2 {
+    font-size: 50px;
+    color: #fff;
+}
+
+.pricing_header_inner {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 30px;
+}
+
+.special_pricing_text {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: #21242D;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 14px;
+    line-height: 20px;
+    top: -48px;
+}
+.pricing_sub_title {
+    text-align: center;
+    color: #9D9D9D;
+    background-color: #EFEFEF;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 15px;
+}
+
+.pricing_content {
+    font-size: 110%;
+    padding: 30px;
+}
+
+.pricing_note {
+    opacity: 0.6;
+    font-size: 70%;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.pricing_list_wrap {
+    margin-top: -120px;
+}
+
+.pricing_list_wrap .row {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.pricing_list_wrap .col-md-4 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
