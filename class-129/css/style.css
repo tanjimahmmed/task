@@ -1,0 +1,119 @@
+@font-face{
+    font-family: 'Asiyah Script';
+    src: url('../fonts/AsiyahScript.eot');
+    src: url('../fonts/AsiyahScript.ttf'),
+    url(../fonts/AsiyahScript.woff),
+    url(../fonts/AsiyahScript.woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a:focus, input:focus, textarea:focus, button:focus{
+    outline: 0 solid;
+}
+a:hover{
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin:0 0 15px;
+    font-weight:normal;
+    font-family: 'Asiyah Script';
+}
+html, body{
+    height: 100%;
+}
+.section_padding{
+    padding: 80px 0;
+}
+img{
+    max-width: 100%;
+}
+.shadow_section{
+    background-image: url(../img/cover.jpg);
+}
+body {
+    font-size: 16px;
+    color: #191919;
+}
+.shadow_section{
+    position: relative;
+    z-index: 1;
+}
+.shadow_section::after{
+    background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 );
+position: absolute;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+content: '';
+z-index: -1;
+opacity: 0.5;
+}
+.shadow_section h2 {
+    font-size: 50px;
+    color: #3a3a3a;
+}
+
+.price_text {
+    color: #D7095E;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.shadow_section {
+    background-size: cover;
+    background-position: center top;
+    background-color: #ddd;
+    padding-top: 50px;
+    padding-bottom: 350px;
+}
+
+.boxed_btn {
+    background-color: #D7095E;
+    color: #fff;
+    border-radius: 3px;
+    padding: 10px 25px;
+    display: inline-block;
+}
+
+.boxed_btn:hover {
+    color: #fff;
+}
+
+.single_counter_item {
+    color: #000;
+    background: #fff;
+    box-shadow: 0 0 10px #898989;
+    padding: 30px;
+    text-align: center;
+    margin: 5px;
+}
+
+.single_counter_item h2 {
+    color: #DF045E;
+    font-family: inherit;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.single_counter_item i.fa {
+    font-size: 40px;
+}
+
+.counter_section {
+    margin-top: -100px;
+    position: relative;
+    z-index: 2;
+}

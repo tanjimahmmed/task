@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Asiyah Script';
+    src: url('AsiyahScript.eot');
+    src: url('AsiyahScript.eot?#iefix') format('embedded-opentype'),
+        url('AsiyahScript.woff2') format('woff2'),
+        url('AsiyahScript.woff') format('woff'),
+        url('AsiyahScript.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
