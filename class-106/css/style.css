@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+a:focus, input:focus, textarea:focus, button:focus{
+    outline: 0 solid;
+}
+a:hover{
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin:0 0 15px;
+    font-weight:700;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.8;
+}
+img{
+    max-width: 100%;
+}
+.section_padding{
+    padding: 80px 0;
+}
+
+.single_pricing_item {
+    box-shadow: 0 0 9px #ddd;
+    padding: 30px;
+    text-align: center;
+    border-top: 5px solid #2DC794;
+    transition: 0.3s;
+}
+
+.pricing_price {
+    background-color: #2DC794;
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    margin: 30px auto;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+p.pricing_price_text {
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 35px;
+    padding-top: 30px;
+    line-height: 35px;
+}
+
+.pricing_price::after {
+    position: absolute;
+    content: '';
+    left: -6%;
+    top: -6%;
+    width: 113%;
+    height: 113%;
+    border: 3px solid #2DC794;
+    z-index: -1;
+    border-radius: 50%;
+}
+
+.pricing_content {
+    font-size: 16px;
+    color: #616161;
+}
+
+a.bordered_btn, .boxed_btn {
+    display: inline-block;
+    border: 2px solid #2DC794;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px 40px;
+    border-radius: 50px;
+    margin-top: 15px;
+    font-weight: 700;
+    color: #2DC794;
+}
+
+a.boxed_btn {
+    background-color: #2DC794;
+    color: #fff;
+}
+
+.single_pricing_item:hover {
+    transform: scale(1.05);
+}
+.single_pricing_item.theme_2 {
+    border-top: 5px solid #FF5E3D;
+}
+
+.theme_2 .pricing_price {
+    background-color: #FF5E3D;
+}
+
+.theme_2 .pricing_price::after {
+    border-color: #FF5E3D;
+}
+
+.theme_2  a.boxed_btn {
+    background-color: #FF5E3D;
+    border-color: #FF5E3D;
+}
+
+.single_pricing_item.theme_3 {
+    border-top: 5px solid #B378F8;
+}
+
+.theme_3 .pricing_price {
+    background-color: #B378F8;
+}
+
+.theme_3 .pricing_price::after {
+    border-color: #B378F8;
+}
+
+.theme_3 a.boxed_btn {
+    border-color: #B378F8;
+}
+
+.theme_3 a.bordered_btn {
+    border-color: #B378F8;
+    color: #B378F8;
+}
