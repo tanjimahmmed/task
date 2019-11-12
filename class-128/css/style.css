@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+a:focus, input:focus, textarea:focus, button:focus{
+    outline: 0 solid;
+}
+a:hover{
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin:0 0 15px;
+    font-weight:700;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.section_padding{
+    padding: 80px 0;
+}
+img{
+    max-width: 100%;
+}
+.styled_bg_1{
+    background-image: url(../img/portfolio-6.jpg);
+}
+.footer_top_area {
+    background-color: #F4F4F4;
+    padding: 60px 0;
+    color: #656565;
+    margin-top: 200px;
+}
+
+.footer_top_area h2 {
+    font-size: 30px;
+    color: #242424;
+}
+
+.news_letter_form input[type=email] {
+    border: none;
+    background: none;
+    padding: 10px 20px;
+    width: 70%;
+}
+
+.news_letter_form input[type=email] {
+    border-bottom: 1px solid #C5C5C5;
+}
+
+.news_letter_form button {
+    border: none;
+    background: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    float: right;
+    width: 27%;
+}
+
+.news_letter_form button {
+    border-bottom: 2px solid #C0A355;
+}
+
+.news_letter_form {
+    margin-top: 12px;
+    margin-left: 2px;
+}
+
+.footer_menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer_menu li {
+    display: inline-block;
+}
+
+.footer_menu a {
+    margin-left: 25px;
+    color: #262626;
+    font-weight: 500;
+}
+
+.footer_links a {
+    color: #212121;
+    padding-left: 10px;
+}
+
+.footer_menu {
+    margin-top: 30px;
+    margin-bottom: 22px;
+}
+
+.copyright_text {
+    margin-top: 25px;
+}
+
+.styled_bg_inner {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+}
+
+.footer_bottom_area .container {
+    position: relative;
+}
+
+.styled_bg {
+    position: absolute;
+    height: 415px;
+    width: 255px;
+    left: -80px;
+    bottom: 0;
+    z-index: 2;
+}
+
+.styled_bg::after {
+    position: absolute;
+    left: -40px;
+    bottom: -40px;
+    height: 100%;
+    width: 100%;
+    content: '';
+    background: #F4F4F4;
+    z-index: -1;
+}
+
+.footer_bottom_area {
+    margin-bottom: 100px;
+}
