@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+a:focus, input:focus, textarea:focus, button:focus{
+    outline: 0 solid;
+}
+a:hover{
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin:0 0 15px;
+    font-weight:700;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.section_padding{
+    padding: 80px 0;
+}
+.stethoscope_bg{
+    background-image: url(../img/stethoscope.png) no-repeat scroll bottom;
+}
+.pricing_content li::before{
+    font-family: fontAwesome;
+    content: "\f046";
+}
+.section_title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section_padding.stethoscope_bg {
+    background-color: #F7F7F7;
+}
+
+.section_title h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.section_title h2 span {
+    color: #01A3F5;
+}
+
+.section_title p {
+    color: #97A19F;
+}
+
+.single_pricing_box {
+    background: #fff;
+    margin-top: 80px;
+}
+
+.stethoscope_bg .col-md-4 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.stethoscope_bg .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.pricing_title {
+    background: #01BCD5;
+    color: #fff;
+    position: relative;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    padding-top: 100px;
+}
+
+.pricing_ticker {
+    background-color: #3A3D50;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    padding-top: 25px;
+    text-align: center;
+    top: -50px;
+    position: absolute;
+}
+
+.pricing_ticker span {
+    color: #0DBECE;
+    font-size: 25px;
+}
+
+.pricing_title h2 {
+    text-transform: uppercase;
+    font-weight: 300;
+    line-height: 45px;
+}
+
+.color_2 .pricing_title {
+    background: #02A4EF;
+}
+
+.color_3 .pricing_title {
+    background: #2BB6F7;
+}
+
+.pricing_content ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.pricing_content li:nth-child(2n+2) {
+    background-color: #F5F6F8;
+}
+
+.pricing_content li {
+    padding: 10px;
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+.pricing_content li::before {
+    margin-right: 10px;
+}
+
+.boxed_btn {
+    border: 1px solid #68B7E5;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.price_btn {
+    padding: 25px 20px;
+}
+
+.pricing_content,.price_btn {
+    border-left: 1px solid #ECEDEE;
+}
+
+.col-md-4:nth-child(3) .pricing_content, .col-md-4:nth-child(3) .price_btn {
+    border-right: 1px solid #ECEDEE;
+}
+
+.price_btn {
+    border-bottom: 1px solid #ECEDEE;
+}
