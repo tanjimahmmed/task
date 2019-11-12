@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+a:focus, input:focus, textarea:focus, button:focus{
+    outline: 0 solid;
+}
+a:hover{
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin:0 0 15px;
+    font-weight:700;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.section_padding{
+    padding: 80px 0;
+}
+.welcome_area{
+    background: #a648ff;
+background: -moz-linear-gradient(45deg,  #a648ff 0%, #5a1cff 100%);
+background: -webkit-linear-gradient(45deg,  #a648ff 0%,#5a1cff 100%);
+background: linear-gradient(45deg,  #a648ff 0%,#5a1cff 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a648ff', endColorstr='#5a1cff',GradientType=1 );
+}
+.logo img {
+    max-height: 100px;
+}
+
+.mainmenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+.mainmenu li {
+    display: inline-block;
+    position: relative;
+}
+
+.mainmenu li a {
+    color: #fff;
+    opacity: 0.8;
+    font-size: 15px;
+    display: block;
+    padding: 25px;
+}
+.welcome_area {
+    padding: 25px 0;
+    padding-bottom: 0;
+    position: relative;
+}
+
+.homepage_area h2 {
+    color: #fff;
+    font-size: 60px;
+    padding-top: 45px;
+}
+
+.homepage_area p {
+    color: #fff;
+    opacity: 0.8;
+    padding-top: 20px;
+}
+
+a.border_boxed_btn {
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    color: #fff !important;
+    display: inline-block;
+    height: 65px;
+    width: 25%;
+    text-align: center;
+    line-height: 63px;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    border-radius: 50px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+a.border_boxed_btn i {
+    margin-right: 20px;
+}
+.iconic_box {
+    color: #fff;
+    font-size: 35px;
+    opacity: 0.8;
+    margin-bottom: 20px;
+}
+
+.about_text h5 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 1;
+}
+
+.about_text p {
+    padding: 0;
+    font-size: 13px;
+    opacity: 0.6;
+    line-height: 25px;
+}
+
+.mainmenu li::after {
+    position: absolute;
+    left: -50px;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background: #fff;
+    content: '';
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+}
+
+.mainmenu li:hover::after {
+    opacity: 1;
+    visibility: visible;
+    left: 0;
+}
