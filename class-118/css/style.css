@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+a:focus, input:focus, textarea:focus, button:focus{
+    outline: 0 solid;
+}
+a:hover{
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin:0 0 15px;
+    font-weight:700;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.section_padding{margin-top: 200px;padding: 90px 0;}
+.section_padding.section_dark_bg {
+    color: #9C9C9C;
+    background: #1A1E1D;
+}
+
+body {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.9;
+}
+
+.section_dark_bg h1 {
+    font-weight: 800;
+    color: #fff;
+    font-size: 90px;
+}
+
+.section_dark_bg h4 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    margin-bottom: 35px;
+}
+
+a.boxed_btn {
+    border: 1px solid;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #FCFCFC;
+    letter-spacing: 2px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+a.boxed_btn:hover {
+    background: #FCFCFC;
+    color: #000;
+    border-color: #FCFCFC;
+}
+
+.absolute_img {
+    margin-top: -123px;
+}
